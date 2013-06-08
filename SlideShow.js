@@ -21,7 +21,7 @@ function DrawingTool(context, w, h) {
 	function drawText(text, x, y) {
 		this.context.fillStyle = 'black';
 		this.context.font = '30pt Calibri';
-		this.context.textAlign = 'center';
+		this.context.textAlign = 'left';
 		this.context.fillText(text, x, y);
 	}
 	
